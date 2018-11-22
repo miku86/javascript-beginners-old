@@ -1,49 +1,275 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>Intro to JavaScript</title>
+    <link rel="stylesheet" href="css/reveal.css" />
+    <link rel="stylesheet" href="css/theme/custom.css" />
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/zenburn.css" />
 
-		<title>reveal.js</title>
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement('link');
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = window.location.search.match(/print-pdf/gi)
+        ? 'css/print/pdf.css'
+        : 'css/print/paper.css';
+      document.getElementsByTagName('head')[0].appendChild(link);
+    </script>
+  </head>
+  <body>
+    <!--
+      Any section element inside of this container is displayed as a slide
+    -->
+    <div class="reveal">
+      <div class="slides">
+        <section>
+          <h2>Intro to JavaScript</h2>
+          <h6 class="fragment">👨‍🔬 Michael 👷</h6>
+          <ul>
+            <li class="fragment">WORKSHOP 💪 🔨 🚀</li>
+            <li class="fragment">
+              👎 NO: I do stuff, you watch me 💤 🐨 🍿 📺
+            </li>
+            <li class="fragment">👍 YES: you think & work 💭 🛠️ 📖</li>
+          </ul>
+        </section>
 
-		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
+        <section>
+          <h2>Why?</h2>
+          <ul>
+            <li class="fragment">
+              Focused Attention: create new neural patterns that connect with
+              existing neural patterns
+            </li>
+            <li class="fragment">
+              Understanding: you can use your focused or diffused modes to get
+              the idea
+            </li>
+            <li class="fragment">
+              Practice: helps to understand the context, so you know when (not)
+              to use it and how it fits into the bigger picture
+            </li>
+          </ul>
+        </section>
 
-		<!-- Theme used for syntax highlighting of code -->
-		<link rel="stylesheet" href="lib/css/zenburn.css">
+        <section>
+          <h2>Approach</h2>
+          <ol>
+            <li class="fragment">Find out WHAT to do</li>
+            <li class="fragment">
+              Try to find a solution on your own (&#8594; own knowledge)
+            </li>
+            <li class="fragment">
+              Talk to other people (&#8594; other peoples' knowledge
+              (internet...))
+            </li>
+          </ol>
+          <li class="fragment">
+            💩 NO: Watch & copy 🐨 &#8594; Illusion of Competency
+          </li>
+        </section>
 
-		<!-- Printing and PDF exports -->
-		<script>
-			var link = document.createElement( 'link' );
-			link.rel = 'stylesheet';
-			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
-			document.getElementsByTagName( 'head' )[0].appendChild( link );
-		</script>
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
-			</div>
-		</div>
+        <section>
+          <h2>HTML & CSS RECAP 👩🏿‍🎓</h2>
+          <ul>
+            <li class="fragment">HTML?</li>
+            <li class="fragment no-disc">&#8594; Content & Meaning (WHAT?)</li>
+            <li class="fragment">CSS?</li>
+            <li class="fragment no-disc">&#8594; Styling (HOW?)</li>
+          </ul>
+        </section>
 
-		<script src="lib/js/head.min.js"></script>
-		<script src="js/reveal.js"></script>
+        <section>
+          <h2>What is JavaScript?</h2>
+          <ul>
+            <li class="fragment">
+              "javascript wiki" &#8594; Wikipedia, Wikibooks, MDN 📖
+            </li>
+            <li class="fragment">
+              Adds <span class="yellow uppercase">interactivity</span> to web
+              pages
+            </li>
+            <li class="fragment">
+              Every time a web page does more than just sit there and display
+              static information for you to look at, JavaScript is probably
+              involved
+            </li>
+          </ul>
+        </section>
 
-		<script>
-			// More info about config & dependencies:
-			// - https://github.com/hakimel/reveal.js#configuration
-			// - https://github.com/hakimel/reveal.js#dependencies
-			Reveal.initialize({
-				dependencies: [
-					{ src: 'plugin/markdown/marked.js' },
-					{ src: 'plugin/markdown/markdown.js' },
-					{ src: 'plugin/notes/notes.js', async: true },
-					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
-				]
-			});
-		</script>
-	</body>
+        <section>
+          <h2>🚧 🔨 Hammer Time 👷‍♀️ 👷‍♂️</h2>
+          <img src="/images/hammer.gif" alt="hammer time" />
+        </section>
+
+        <section>
+          <h2>🚧 🔨 Codepen 👷‍♀️ 👷‍♂️</h2>
+          <p>try to find it on your own...</p>
+        </section>
+
+        <section>
+          <h2>What we will build</h2>
+          <img src="" alt="" />Gif Shopping List
+        </section>
+
+        <section>
+          <h2>We build a Shopping List</h2>
+          <ul>
+            <li class="fragment">
+              Great for beginners, because we can build some basic
+              functionality, depending on the time we have
+            </li>
+            <li class="fragment">Many core concepts of JavaScript get used</li>
+            <li class="fragment">You can add features at home</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Weeks of Coding can save you hours of thinking</h2>
+          <p>
+            &#8594; Thinking <span class="yellow uppercase">before</span> Coding
+          </p>
+        </section>
+
+        <section>
+          <h2>Collecting User Stories 👩🏿‍🎓</h2>
+          <ul>
+            <li class="fragment no-disc">💭 📝 💭 📝 💭 📝</li>
+            <li class="fragment no-disc uppercase">"As a user, I can..."</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2></h2>
+          <ul>
+            As a user, I can...
+            <li class="fragment">see an element to input a shopping item</li>
+            <li class="fragment">submit the written shopping item</li>
+            <li class="fragment">see a list of all submitted shopping items</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Basics</h2>
+          <ul>
+            <li class="fragment">User Stories: "As a user, I can..."</li>
+            <li class="fragment">
+              Write the user stories into the html via comment
+            </li>
+            <li class="fragment"><code>&lt;!-- user story --&gt;</code></li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Overview</h2>
+          <ul>
+            As a user, I can...
+            <li class="fragment todo">
+              see an element to input a shopping item
+            </li>
+            <li class="fragment">submit the written shopping item</li>
+            <li class="fragment">see a list of all submitted shopping items</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Overview</h2>
+          <ul>
+            As a user, I can...
+            <li class="fragment done">
+              see an element to input a shopping item
+            </li>
+            <li class="fragment todo">submit the written shopping item</li>
+            <li class="fragment">see a list of all submitted shopping items</li>
+          </ul>
+				</section>
+
+        <section><img src="/images/dancing01.gif" alt="dancing" /></section>
+
+        <section>
+          <h2>Overview</h2>
+          <ul>
+            As a user, I can...
+            <li class="fragment done">
+              see an element to input a shopping item
+            </li>
+            <li class="fragment done">submit the written shopping item</li>
+            <li class="fragment todo">
+              see a list of all submitted shopping items
+            </li>
+          </ul>
+				</section>
+
+				<section><img src="/images/dancing02.gif" alt="dancing" /></section>
+
+        <section>
+          <h2>Overview</h2>
+          <ul>
+            As a user, I can...
+            <li class="fragment done">
+              see an element to input a shopping item
+            </li>
+            <li class="fragment done">submit the written shopping item</li>
+            <li class="fragment done">
+              see a list of all submitted shopping items
+            </li>
+          </ul>
+        </section>
+
+        <section><img src="/images/dancing03.gif" alt="dancing" /></section>
+
+        <section>
+          <h2></h2>
+          <ul>
+            <li class="fragment"></li>
+            <li class="fragment"></li>
+            <li class="fragment"></li>
+          </ul>
+        </section>
+
+        <section>
+          <h2></h2>
+          <ul>
+            <li class="fragment"></li>
+            <li class="fragment"></li>
+            <li class="fragment"></li>
+          </ul>
+        </section>
+      </div>
+    </div>
+    <!--
+      Any section element inside of this container is displayed as a slide
+    -->
+
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.js"></script>
+
+    <script>
+      // More info about config & dependencies:
+      // - https://github.com/hakimel/reveal.js#configuration
+      // - https://github.com/hakimel/reveal.js#dependencies
+      Reveal.initialize({
+        slideNumber: true,
+        dependencies: [
+          { src: 'plugin/markdown/marked.js' },
+          { src: 'plugin/markdown/markdown.js' },
+          { src: 'plugin/notes/notes.js', async: true },
+          {
+            src: 'plugin/highlight/highlight.js',
+            async: true,
+            callback: function() {
+              hljs.initHighlightingOnLoad();
+            },
+          },
+        ],
+      });
+    </script>
+  </body>
 </html>
