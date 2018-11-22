@@ -350,8 +350,7 @@ body {
 }
 
 .todo {
-  color: green;
-  font-weight: bold;
+  color: hsl(120, 100%, 50%);
 }
 
 .done {
