@@ -349,6 +349,10 @@ body {
   list-style-type: none;
 }
 
+.justify {
+	text-align: justify;
+}
+
 .todo {
   color: hsl(120, 100%, 50%);
 }
