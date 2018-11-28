@@ -18,8 +18,12 @@ section.has-light-background h6 {
  * GLOBAL STYLES
  *********************************************/
 body {
-  background: #395060;
-  background-color: #395060;
+  background: linear-gradient(
+    135deg,
+    hsl(210, 70%, 30%) 0%,
+    hsl(210, 70%, 40%) 50%,
+    hsl(210, 70%, 50%) 100%
+  );
 }
 
 .reveal {
@@ -335,22 +339,27 @@ body {
  *********************************************/
 .reveal li {
   margin: 40px 0;
+  list-style-type: none;
 }
 
 .yellow {
-  color: #ffd500;
+  color: hsl(50, 100%, 50%);
+}
+
+.green {
+  color: hsl(120, 100%, 50%);
+}
+
+.red {
+  color: hsl(0, 100%, 50%);
 }
 
 .uppercase {
   text-transform: uppercase;
 }
 
-.no-disc {
-  list-style-type: none;
-}
-
 .justify {
-	text-align: justify;
+  text-align: justify;
 }
 
 .todo {
@@ -360,4 +369,17 @@ body {
 .done {
   color: gray;
   text-decoration: line-through;
+}
+
+.image-bigger {
+  height: 400px;
+}
+
+.reveal h2 {
+  background-color: #ffd500;
+  color: #395060;
+}
+
+.solution > img {
+  transform: scale(1.1);
 }
