@@ -1,5 +1,10 @@
 # Workshop Intro to JavaScript
 
+# Finished Code
+
+- [finished app](https://codepen.io/miku86/pen/oQydKL)
+- [your user stories](https://codepen.io/miku86/pen/aQjOQB)
+
 ## Sources / Further Reading:
 
 - [Wikipedia - HTML](https://en.wikipedia.org/wiki/HTML)
